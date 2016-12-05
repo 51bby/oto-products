@@ -1,5 +1,5 @@
 FROM python:onbuild
-MAINTAINER Anton Weiss <ant.weiss@gmail.com>
+MAINTAINER Sebastian Schulze <sebastian.schulze@direkt-gruppe.de>
 ADD . /usr/src/app
 WORKDIR /usr/src/app
 RUN pip install -r requirements.txt
